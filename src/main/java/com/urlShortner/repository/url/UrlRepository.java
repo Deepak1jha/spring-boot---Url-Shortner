@@ -5,6 +5,5 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface UrlRepository extends MongoRepository<Url,String> {
 
-    public Url findByShortLink(String shortLink);
-
+    public Url findByShortLink(String url);
 }
